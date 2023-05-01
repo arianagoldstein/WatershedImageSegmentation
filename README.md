@@ -46,12 +46,13 @@ To see the run time for either, enter:
 $ cat gpujob.out
 ```
 
-To see the output, download "output.raw"
+To see the output, download `output.raw`
 
 To change input files, open cuda3.cu or cuda2.cu and change input_file on line 9. 
 Also change the height and width on lines 6 and 7. 
 The following are the input names and their sizes:
-Name		height		width
-input.raw	800			800
-512.raw		512			512
-woman.raw	256			256
+|Name		|height		|width	|
+|:----------|:----------|:------|
+|input.raw	|800		|800	|
+|512.raw	|512		|512	|
+|woman.raw	|256		|256	|
